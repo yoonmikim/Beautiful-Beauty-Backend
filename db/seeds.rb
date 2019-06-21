@@ -11,6 +11,9 @@ require 'rest-client'
 require 'json'
 require 'pry'
 
+Product.destroy_all
+
+
     url = "http://makeup-api.herokuapp.com/api/v1/products.json"
 
     response = RestClient.get(url)
