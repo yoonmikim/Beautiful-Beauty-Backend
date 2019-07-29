@@ -1,24 +1,9 @@
-# README
+# Beautiful Beauty Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*A Makeup App where user can sign up, log in, log out, go to homepage with categories with images, emojis, and gifs, go to profile page, view products, filter/sort/search products based on user inputs. If user likes certain products, user can add to cart and/or go to product pages to purchase.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
++ Created a Ruby on Rails API backend to parse data from a 3rd party API. (Seed data from a complex data set - external API)
++ Use of MVC, Serializers, ActiveRecord, and custom RESTful routes to optimize database and schema for backend functionality. (belongs_to / has_many / belongs_to / has_many_through relationships in model)
++ Validations (when signing up as a new user - username should be unique)
++ Interacting with a complex API
++ This beauty-BE repository goes with beauty-FE (https://github.com/yoonmikim/Beautiful-Beauty-Frontend)
