@@ -8,3 +8,37 @@
 + Validations (when signing up as a new user - username should be unique)
 + Interacting with a complex API
 + This beauty-BE repository goes with beauty-FE (https://github.com/yoonmikim/Beautiful-Beauty-Frontend)
+
+### Installing and Running the App
+
+A step by step series of examples that tell you how to get a development env running.
+You will need to have cloned the backend repo and started the rails server on port 3000.
+The frontend will run on port 3001 by default if you already have the backend server up and running.
+To start the frontend:
+
+```
+$ git clone
+$ cd [repo location]
+$ cd beautiful-beauty-backend
+$ bundle install
+$ rails s
+```
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Built With
+
+* React.js (front-end)
+* Ruby on Rails (back-end)
+* Makeup API
+
+## Author
+
+* **Yoonmi Kim** 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
